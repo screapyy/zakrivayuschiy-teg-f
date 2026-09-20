@@ -1,1 +1,1 @@
-https://screapyy.github.io/zakrivayuschiy-teg-f/
+https://screapyy.github.io/zakrivayuschiy-teg-f
