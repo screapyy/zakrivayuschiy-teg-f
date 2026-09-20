@@ -2,10 +2,12 @@
 :root {
     --white-color: #fff;
     --black-color: #000;
+    --contour-color: #000;
+    --animation-fill-color: #FF0000;
     --main-font: 'Inter-Variable';
     --second-font: 'PressStart2P';
     --card-title-weight: 715;
-    --card-text-weidght: 410;
+    --card-text-weight: 410;
     --text-size: 18px;
     --background-gradient: 
     repeating-linear-gradient(
