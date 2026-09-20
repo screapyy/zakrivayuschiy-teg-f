@@ -248,26 +248,26 @@
   mix-blend-mode: difference;
 }
 
-.card__like-button:focus-visible, 
-.button__save:focus-visible, 
+.card__like-button:focus-visible,
+.button__save:focus-visible,
 .button__submit:focus-visible {
   outline: none;
   box-shadow: 2px 2px 0 var(--black-color);
   transition: 0.3s ease;
 }
 
-.button.card__like-button, 
-.button.button__save, 
+.button.card__like-button,
+.button.button__save,
 .button.button__submit {
   position: relative;
   overflow: hidden;
   z-index: 1;
 }
 
-.button.card__like-button::before, 
-.button.button__save::before, 
+.button.card__like-button::before,
+.button.button__save::before,
 .button.button__submit::before {
-  content: '';
+  content: "";
   position: absolute;
   inset: 0;
   background-color: var(--black-color);
@@ -277,13 +277,13 @@
   z-index: -1;
 }
 
-.card__like-button:hover::before, 
-.button__save:hover::before, 
+.card__like-button:hover::before,
+.button__save:hover::before,
 .button__submit:hover::before {
   transform: scale(1, 1);
 }
-.card__like-button:hover, 
-.button__save:hover, 
+.card__like-button:hover,
+.button__save:hover,
 .button__submit:hover {
   cursor: pointer;
 }
@@ -300,7 +300,28 @@
   border-color: var(--black-color);
 }
 
-.like-icon, .heart {
+.contour {
+  fill: var(--contour-color);
+  transition: fill 0.1s linear;
+}
+
+.main-body {
+  fill: transparent;
+  transition: fill 0.3s linear;
+}
+
+.core {
+  fill: transparent;
+  transition: fill 0.3s linear 0.03s;
+}
+
+.sparks {
+  fill: var(--animation-fill-color);
+  opacity: 0;
+}
+
+.like-icon,
+.heart {
   transform-origin: center;
 }
 
@@ -317,17 +338,17 @@
   }
 
   .icon__dialog {
-  width: 39px;
-  height: 39px;
-}
+    width: 39px;
+    height: 39px;
+  }
 
-.dialog[open] {
-  width: 341px;
-  padding: 30px 40px;
-}
+  .dialog[open] {
+    width: 341px;
+    padding: 30px 40px;
+  }
 
-.button__submit {
-  width: 261px;
-  justify-content: center;
-}
+  .button__submit {
+    width: 261px;
+    justify-content: center;
+  }
 }
